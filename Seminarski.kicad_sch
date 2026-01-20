@@ -4860,6 +4860,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "529d8549-f9ee-4091-8d08-c75921e5cc8c")
 		)
@@ -4928,6 +4946,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b009761-a922-4701-86d2-e4e43837fde2")
 		)
@@ -4988,6 +5024,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 68.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -5066,6 +5120,33 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" "CL31B104KBCNNNC"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/cl31b104kbcnnnc/kondenzatori-mlcc-smd/samsung/"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMSUNG"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df52a1a9-fa83-4ec1-a012-9a360ec4b6ce")
 		)
@@ -5126,6 +5207,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "1206S4J0331T5E"
+			(at 213.36 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/smd1206-330r/otpornici-smd/royalohm/1206s4j0331t5e/"
+			(at 213.36 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ROYALOHM"
+			(at 213.36 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,6 +5302,24 @@
 			)
 		)
 		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 53.34 68.58 0)
 			(effects
 				(font
@@ -5348,6 +5474,33 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" "1206S4F3000T5E"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/smd1206-300r-1%25/otpornici-smd/royalohm/1206s4f3000t5e/"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ROYALOHM"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c45f009e-a80b-4c72-a48c-1f6122d3081c")
 		)
@@ -5408,6 +5561,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 50.8 170.18 0)
 			(effects
 				(font
@@ -5484,6 +5655,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd11c80f-890d-4733-b5fd-07d92e438d0b")
 		)
@@ -5552,6 +5741,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70051596-989d-4cfb-a944-dbf60238c840")
 		)
@@ -5612,6 +5819,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 165.1 99.06 0)
 			(effects
 				(font
@@ -5690,6 +5915,33 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" "1060"
+			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/keys1060/baterije-kutije-i-drzaci/keystone/1060/"
+			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEYSTONE"
+			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5021756-4d4a-48fd-bac3-9a3a945c4508")
 		)
@@ -5751,6 +6003,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 68.58 149.86 0)
 			(effects
 				(font
@@ -5950,6 +6220,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cf4b69d-19ef-4469-80af-17d5e15ae71f")
 		)
@@ -6016,6 +6304,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 121.92 160.02 0)
 			(effects
 				(font
@@ -6094,6 +6400,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 242.57 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 242.57 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fb75d411-5698-43c5-b9de-4073a391e2cd")
 		)
@@ -6159,6 +6483,24 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 256.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 256.54 99.06 0)
 			(effects
 				(font
@@ -6434,6 +6776,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 50.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 50.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2f9e77c-ef89-4652-ae99-46147bb73557")
 		)
@@ -6494,6 +6854,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 104.14 170.18 0)
 			(effects
 				(font
@@ -6636,6 +7014,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 86.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 86.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c57159b5-1570-443a-8e21-f00cdca6af09")
 		)
@@ -6696,6 +7092,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 121.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 121.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 121.92 180.34 0)
 			(effects
 				(font
@@ -6904,6 +7318,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb22ba13-b780-4980-a70c-b1e2aec47e35")
 		)
@@ -6972,6 +7404,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "021e4e87-a8a3-4709-83e3-9036e2d2dbc6")
 		)
@@ -7032,6 +7482,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 50.8 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 50.8 149.86 0)
 			(effects
 				(font
@@ -7241,6 +7709,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 86.36 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e6e11ba-ce30-484f-940b-4929bdc74654")
 		)
@@ -7319,6 +7805,33 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" "ELSH-F71G1-0LPNM-CG1G2"
+			(at 213.36 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/katalog/led-diode-smd-u-boji_113363/?params=754:1453354;35:2084324_led-colour:green;case:4530"
+			(at 213.36 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EVERLIGHT"
+			(at 213.36 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32d0baa6-1073-4912-8978-e3cadc33df83")
 		)
@@ -7379,6 +7892,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 104.14 160.02 0)
 			(effects
 				(font
@@ -7455,6 +7986,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 104.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 104.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b4af27d-59e9-4388-bef7-117366df23ad")
 		)
@@ -7489,7 +8038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500uF"
+		(property "Value" "100uF"
 			(at 231.14 46.4438 0)
 			(effects
 				(font
@@ -7517,6 +8066,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "ECEA0JKA101I"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/ecea0jka101i/kondenzatori-elektrolitski-tht/panasonic/"
+			(at 228.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "PANASONIC"
 			(at 228.6 45.72 0)
 			(effects
 				(font
@@ -7595,6 +8171,33 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" "1206S4J0101T5E"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/smd1206-100r/otpornici-smd/royalohm/1206s4j0101t5e/"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ROYALOHM"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e938d89-108d-4671-8650-b39b39084f96")
 		)
@@ -7658,6 +8261,33 @@
 		)
 		(property "Description" "Zener diode, small symbol"
 			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "MM3Z3V3T1G"
+			(at 190.5 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/mm3z3v3t1g/diode-zener-smd/onsemi/"
+			(at 190.5 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ONESEMI"
+			(at 190.5 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,6 +8430,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerPartNumber" ""
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 86.36 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1db0e59a-393d-40c6-8136-a1a97ff27074")
 		)
@@ -7926,6 +8574,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" ""
+			(at 104.14 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 104.14 180.34 0)
 			(effects
 				(font
@@ -8061,6 +8727,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPartNumber" "1206S4F1002T5E"
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/hr/details/smd1206-10k-1%25/otpornici-smd/royalohm/1206s4f1002t5e/"
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ROYALOHM"
 			(at 182.88 93.98 0)
 			(effects
 				(font
