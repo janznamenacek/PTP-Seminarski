@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Jan\Documents\GitHub\PTP-Seminarski\Seminarski.kicad_sch</source>
+    <date>2026-01-24T14:14:02+0100</date>
+    <tool>Eeschema 9.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Seminarski.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>3.3V</value>
+      <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
+      <datasheet>~</datasheet>
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="ManufacturerPartNumber">1060</field>
+        <field name="Link">https://www.tme.eu/hr/details/keys1060/baterije-kutije-i-drzaci/keystone/1060/</field>
+        <field name="MANUFACTURER">KEYSTONE</field>
+        <field name="Footprint">Battery:BatteryHolder_Keystone_1060_1x2032</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="ManufacturerPartNumber" value="1060"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/keys1060/baterije-kutije-i-drzaci/keystone/1060/"/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>217fdf1c-b080-454e-bf81-231415ddab72</tstamps>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Buzzer, polarized</description>
+      <fields>
+        <field name="ManufacturerPartNumber">CMT-9605-85T</field>
+        <field name="Link">https://www.tme.eu/hr/details/cmt-9605-85t/signalizatori-elektromag-bez-generatora/same-sky/</field>
+        <field name="MANUFACTURER">SAME SKY</field>
+        <field name="Footprint">Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Buzzer, polarized</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="ManufacturerPartNumber" value="CMT-9605-85T"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/cmt-9605-85t/signalizatori-elektromag-bez-generatora/same-sky/"/>
+      <property name="MANUFACTURER" value="SAME SKY"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="quartz resonator ceramic"/>
+      <property name="ki_fp_filters" value="*Buzzer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b988110-685a-4fd7-aa35-74f51ef56c07</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">ECEA0JKA101I</field>
+        <field name="Link">https://www.tme.eu/hr/details/ecea0jka101i/kondenzatori-elektrolitski-tht/panasonic/</field>
+        <field name="MANUFACTURER">PANASONIC</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="ManufacturerPartNumber" value="ECEA0JKA101I"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/ecea0jka101i/kondenzatori-elektrolitski-tht/panasonic/"/>
+      <property name="MANUFACTURER" value="PANASONIC"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc647990-6fd5-4151-a733-bbdb53f1d117</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">CL31B104KBCNNNC</field>
+        <field name="Link">https://www.tme.eu/hr/details/cl31b104kbcnnnc/kondenzatori-mlcc-smd/samsung/</field>
+        <field name="MANUFACTURER">SAMSUNG</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="ManufacturerPartNumber" value="CL31B104KBCNNNC"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/cl31b104kbcnnnc/kondenzatori-mlcc-smd/samsung/"/>
+      <property name="MANUFACTURER" value="SAMSUNG"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>080891fd-87f2-405f-859c-1df3d969222f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>3.4 Zener</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">MM3Z3V3T1G</field>
+        <field name="Link">https://www.tme.eu/hr/details/mm3z3v3t1g/diode-zener-smd/onsemi/</field>
+        <field name="MANUFACTURER">ONESEMI</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323F</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener_Small" description="Zener diode, small symbol"/>
+      <property name="ManufacturerPartNumber" value="MM3Z3V3T1G"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/mm3z3v3t1g/diode-zener-smd/onsemi/"/>
+      <property name="MANUFACTURER" value="ONESEMI"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7356115-334a-4714-a9aa-9607f81a6407</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="ManufacturerPartNumber">ELSH-F71G1-0LPNM-CG1G2</field>
+        <field name="Link">https://www.tme.eu/hr/katalog/led-diode-smd-u-boji_113363/?params=754:1453354;35:2084324_led-colour:green;case:4530</field>
+        <field name="MANUFACTURER">EVERLIGHT</field>
+        <field name="Footprint">LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="ManufacturerPartNumber" value="ELSH-F71G1-0LPNM-CG1G2"/>
+      <property name="Link" value="https://www.tme.eu/hr/katalog/led-diode-smd-u-boji_113363/?params=754:1453354;35:2084324_led-colour:green;case:4530"/>
+      <property name="MANUFACTURER" value="EVERLIGHT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8b8505-0c5c-4b34-86f2-5b7d868f1bb7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">1206S4F1002T5E</field>
+        <field name="Link">https://www.tme.eu/hr/details/smd1206-10k-1%25/otpornici-smd/royalohm/1206s4f1002t5e/</field>
+        <field name="MANUFACTURER">ROYALOHM</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="ManufacturerPartNumber" value="1206S4F1002T5E"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/smd1206-10k-1%25/otpornici-smd/royalohm/1206s4f1002t5e/"/>
+      <property name="MANUFACTURER" value="ROYALOHM"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff7146f6-eebf-4dcf-82b5-b7762ee94ffe</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">1206S4F3000T5E</field>
+        <field name="Link">https://www.tme.eu/hr/details/smd1206-300r-1%25/otpornici-smd/royalohm/1206s4f3000t5e/</field>
+        <field name="MANUFACTURER">ROYALOHM</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="ManufacturerPartNumber" value="1206S4F3000T5E"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/smd1206-300r-1%25/otpornici-smd/royalohm/1206s4f3000t5e/"/>
+      <property name="MANUFACTURER" value="ROYALOHM"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f9b65e8-e012-4677-9874-77c846d932a8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">1206S4J0331T5E</field>
+        <field name="Link">https://www.tme.eu/hr/details/smd1206-330r/otpornici-smd/royalohm/1206s4j0331t5e/</field>
+        <field name="MANUFACTURER">ROYALOHM</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="ManufacturerPartNumber" value="1206S4J0331T5E"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/smd1206-330r/otpornici-smd/royalohm/1206s4j0331t5e/"/>
+      <property name="MANUFACTURER" value="ROYALOHM"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09154e37-7030-43c1-8a85-e78ab0648634</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="ManufacturerPartNumber">1206S4J0101T5E</field>
+        <field name="Link">https://www.tme.eu/hr/details/smd1206-100r/otpornici-smd/royalohm/1206s4j0101t5e/</field>
+        <field name="MANUFACTURER">ROYALOHM</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="ManufacturerPartNumber" value="1206S4J0101T5E"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/smd1206-100r/otpornici-smd/royalohm/1206s4j0101t5e/"/>
+      <property name="MANUFACTURER" value="ROYALOHM"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3b0a142-b9b8-4228-a574-dfcf4fc59920</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 61 R</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss61r/mikroprekidaci-tact/knitter-switch/tss-61-r/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 61 R"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss61r/mikroprekidaci-tact/knitter-switch/tss-61-r/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>210bb7ac-556b-47c1-96e0-b5b07001717f</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90d11cd9-02e1-44ac-8361-e8a1b1530123</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d855a6d-de0b-4af7-95a6-9b3a3727e9b2</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11cbe6c3-5e25-4394-a886-94e2c863d6ea</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e59cc04-73fe-4d5f-af48-0793ea563617</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cda0762-d758-4787-9afb-955896a6e07b</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07ef1791-6ac9-42c8-96c1-74328f272b2c</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04f0dd3f-bcdc-4ccf-a43e-ecb49277c815</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18000579-c0fa-433b-95ad-704a407b0c3b</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efbb14a4-babb-4a60-a0b7-60ee889c3975</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>786fdc8e-4a49-4c83-8b75-314ab20d9ce9</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8f3cb6c-7f6e-4433-8097-1ee5b996515b</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18ae1b8d-2745-4002-b7ec-a4c4ab606e55</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6022f76-22e8-42dd-a86e-0ebb30b4d25b</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0cce2ba-78a2-45ca-91cd-12a6116dbc50</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>647010dc-0d86-4cc3-9176-7d3e7bbc0429</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f35444bd-dcd3-4359-b6a0-69a7a9a195d2</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dc2ae05-1508-4b2c-865f-931eb5c633fc</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>331b25d7-4f4d-4908-b902-de7912148236</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>018da095-a3a4-4202-b041-e1d6a56045df</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="ManufacturerPartNumber">TSS 62 N</field>
+        <field name="Link">https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/</field>
+        <field name="MANUFACTURER">KNITTER-SWITCH</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="ManufacturerPartNumber" value="TSS 62 N"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/tss62n/mikroprekidaci-tact/knitter-switch/tss-62-n/"/>
+      <property name="MANUFACTURER" value="KNITTER-SWITCH"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78d27a0b-72ee-4a1c-81c9-ccc2d2b85a51</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_SPDT_312</value>
+      <footprint>Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</footprint>
+      <datasheet>~</datasheet>
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="ManufacturerPartNumber">OS102011MA1QN1C</field>
+        <field name="Link">https://www.tme.eu/hr/details/os102011ma1qn1c/prekidaci-klizni/c-k/</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="Footprint">Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT_312" description="Switch, single pole double throw"/>
+      <property name="ManufacturerPartNumber" value="OS102011MA1QN1C"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/os102011ma1qn1c/prekidaci-klizni/c-k/"/>
+      <property name="MANUFACTURER" value="C&amp;K"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="changeover single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b7b64de-56ac-4c19-ab6c-a1c99feaff20</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega328-P</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28</description>
+      <fields>
+        <field name="ManufacturerPartNumber">ATMEGA328P-PU</field>
+        <field name="Link">https://www.tme.eu/hr/details/atmega328p-pu/obitelj-avr-8-bita/microchip-technology/</field>
+        <field name="MANUFACTURER">Microchip</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</field>
+        <field name="Description">20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328-P" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"/>
+      <property name="ManufacturerPartNumber" value="ATMEGA328P-PU"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/atmega328p-pu/obitelj-avr-8-bita/microchip-technology/"/>
+      <property name="MANUFACTURER" value="Microchip"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b1cfd25-8b4b-4eb1-ab2a-3c785ab674d1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>DM-OLED096-636</value>
+      <footprint>DM-OLED096-636:MODULE_DM-OLED096-636</footprint>
+      <fields>
+        <field name="MF">Display Module</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">11.3 mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">2018-09-10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap</field>
+        <field name="MP">DM-OLED096-636</field>
+        <field name="Description_1">0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">RAYSTAR OPTRONICS</field>
+        <field name="ManufacturerPartNumber">REA012864LWPP3N00000</field>
+        <field name="Link">https://www.tme.eu/hr/details/rea012864lwpp3n0/displeji-oled-graficki/raystar-optronics/rea012864lwpp3n00000/</field>
+        <field name="Footprint">DM-OLED096-636:MODULE_DM-OLED096-636</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DM-OLED096-636" part="DM-OLED096-636" description=""/>
+      <property name="MF" value="Display Module"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="11.3 mm"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="2018-09-10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"/>
+      <property name="MP" value="DM-OLED096-636"/>
+      <property name="Description_1" value="0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="RAYSTAR OPTRONICS"/>
+      <property name="ManufacturerPartNumber" value="REA012864LWPP3N00000"/>
+      <property name="Link" value="https://www.tme.eu/hr/details/rea012864lwpp3n0/displeji-oled-graficki/raystar-optronics/rea012864lwpp3n00000/"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Seminarski.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>312cc6a2-c434-40f6-817a-be2b0b2e1b6d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DM-OLED096-636" part="DM-OLED096-636">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DM-OLED096-636</field>
+        <field name="Footprint">DM-OLED096-636:MODULE_DM-OLED096-636</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Display Module</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">11.3 mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">2018-09-10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap</field>
+        <field name="MP">DM-OLED096-636</field>
+        <field name="Description_1">0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">Displaymodule</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC_IN" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Buzzer, polarized</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_Small">
+      <description>Zener diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega328-P">
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega328-P</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</field>
+        <field name="Description">20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="2" name="PD0" type="bidirectional"/>
+        <pin num="3" name="PD1" type="bidirectional"/>
+        <pin num="4" name="PD2" type="bidirectional"/>
+        <pin num="5" name="PD3" type="bidirectional"/>
+        <pin num="6" name="PD4" type="bidirectional"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="10" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="11" name="PD5" type="bidirectional"/>
+        <pin num="12" name="PD6" type="bidirectional"/>
+        <pin num="13" name="PD7" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="PB2" type="bidirectional"/>
+        <pin num="17" name="PB3" type="bidirectional"/>
+        <pin num="18" name="PB4" type="bidirectional"/>
+        <pin num="19" name="PB5" type="bidirectional"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT_312">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT_312</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DM-OLED096-636">
+      <uri>C:/Users/Jan/Documents/KiCad/Lib/DM-OLED096-636/DM-OLED096-636.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW22" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VCC_IN" pintype="power_in"/>
+    </net>
+    <net code="2" name="BUZZER" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="C1" class="Default">
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="C2" class="Default">
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="C3" class="Default">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="C4" class="Default">
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="C5" class="Default">
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BZ1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(BT1-+)" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW22" pin="1" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(BZ1-+)" class="Default">
+      <node ref="BZ1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R2-Pad1)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(U1-PC4)" class="Default">
+      <node ref="U1" pin="27" pinfunction="PC4" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(U1-PC5)" class="Default">
+      <node ref="U1" pin="28" pinfunction="PC5" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="15" name="R1" class="Default">
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="R2" class="Default">
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="R3" class="Default">
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="R4" class="Default">
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="RESET" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(SW22-C-Pad2)" class="Default">
+      <node ref="SW22" pin="2" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-AREF-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="AREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-AVCC-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="AVCC" pintype="power_in+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-PB5-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PC0-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PC1-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-PC2-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-PC3-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-PD0-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="PD0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-PD1-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PD1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-PD2-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-XTAL1/PB6-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="XTAL1/PB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-XTAL2/PB7-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="XTAL2/PB7" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
