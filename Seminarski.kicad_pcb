@@ -8450,6 +8450,17 @@
 			(uuid "bab2c085-9d14-482d-b12c-fe62d7285324")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D Model/Display 1.3 OLED (Mauro) v5.step"
+			(offset
+				(xyz 0 -4.5 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 		(layer "F.Cu")
