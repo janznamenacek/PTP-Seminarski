@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2026-01-24T15:15:32+01:00"
+    "CreationDate": "2026-02-03T12:12:50+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -76,6 +76,16 @@
     {
       "Path": "Seminarski-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Seminarski-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Seminarski-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
